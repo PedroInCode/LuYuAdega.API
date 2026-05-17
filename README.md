@@ -16,7 +16,7 @@ Desenvolver um sistema de catálogo que gerencie produtos e categorias, aplicand
 Seguirei uma ordem lógica de desenvolvimento para garantir o entendimento total do fluxo de dados:
 
 ### Fase 1: Domínio e Persistência (The Foundation)
-- [ ] **Definição de Models:** Criar as entidades `Produto` e `Categoria` com relacionamentos 1:N.
+- [x] **Definição de Models:** Criar as entidades `Produto` e `Categoria` com relacionamentos 1:N.
 - [ ] **Data Context:** Configurar o Entity Framework Core e as Migrations.
 - [ ] **Repository Layer (Opcional/Futuro):** Abstração do acesso a dados.
 

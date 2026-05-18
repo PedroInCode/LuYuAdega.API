@@ -16,4 +16,6 @@ public class Categoria
      -> Uso "string.Empty" para evitar que o campo venha nulo.
      -> Em uma API, o Nome é o que identifica a categoria para o usuário. */
     public string Nome { get; set; } = string.Empty;
+
+    public ICollection<Produto>? Produtos { get; set; } // Propriedade de navegação para os produtos relacionados a essa categoria.
 }

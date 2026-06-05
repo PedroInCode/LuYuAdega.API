@@ -22,7 +22,7 @@ O propósito central desta API é centralizar toda a inteligência de negócios 
 O desenvolvimento seguirá uma ordem lógica e profissional, dividida em camadas de responsabilidade:
 
 ### Fase 1: Domínio e Persistência (The Foundation)
-- [ ] **Modelagem das Entidades:** Criar as classes de domínio (`Produto`, `Categoria`, `Venda`, `ItemVenda`, `Usuario`, `Cliente`, `Fornecedor`).
+- [x] **Modelagem das Entidades:** Criar as classes de domínio (`Produto`, `Categoria`, `Venda`, `ItemVenda`, `Usuario`, `Cliente`, `Fornecedor`).
 - [ ] **Data Context (EF Core):** Configurar o Entity Framework Core com suporte a Migrations para mapeamento do banco de dados relacional (MariaDB ou SQL Server).
 
 ### Fase 2: Contratos e Comunicação (DTOs)
